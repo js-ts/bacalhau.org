@@ -1,0 +1,14 @@
+@import "../../styles/media-queries";
+
+.wrapper {
+  height: 180px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+
+  justify-content: center;
+
+  @include media-min-lg {
+    justify-content: flex-start;
+  }
+}
