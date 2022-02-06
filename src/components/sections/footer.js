@@ -18,7 +18,7 @@ const Footer = () => {
         <div className={styles.column}>
           <Link to={"/"}>
             <StaticImage
-              src={"../../images/logo-small.svg"}
+              src={"../../images/logo-small.png"}
               alt={"Bacalhau logo"}
               width={200}
               placeholder={"none"}
